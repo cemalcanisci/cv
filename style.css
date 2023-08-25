@@ -65,6 +65,10 @@
   font-size: 14px;
 }
 
+svg {
+  height: 20px;
+}
+
 .cv--header--item svg {
   margin-right: 0.5rem;
 }
