@@ -1,0 +1,22 @@
+{
+  "name": "cv",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && node htmlto.js",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.15",
+    "postcss": "^8.4.28",
+    "tailwindcss": "^3.3.3",
+    "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "feather-icons": "^4.29.1",
+    "html-to-pdf": "^0.1.11",
+    "html-to-pdf-js": "^0.9.3"
+  }
+}

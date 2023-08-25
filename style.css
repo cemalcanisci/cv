@@ -1,0 +1,139 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --green: #10959b;
+  --blue: #2e3c51;
+  --dark-blue: #202a33;
+  --section-padding: 2rem;
+}
+
+.cv {
+  width: 800px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.cv--header {
+  padding: var(--section-padding);
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--blue);
+  color: white;
+}
+
+.cv--header--info #bio {
+  margin-bottom: 1.5rem;
+}
+
+.cv--header--info #full-name {
+  font-size: 3rem;
+}
+
+.cv--header--info #title {
+  color: var(--green);
+  font-weight: bold;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.cv--header--profile-image {
+  margin-left: 100px;
+  border: 3px solid var(--green);
+  border-radius: 50%;
+  background-image: url("me.jpg");
+  min-width: 180px;
+  min-height: 180px;
+  max-width: 180px;
+  max-height: 180px;
+  background-size: cover;
+}
+
+.cv--contact {
+  background-color: var(--dark-blue);
+  color: white;
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cv--header--item {
+  display: flex;
+  align-items: center;
+  margin-top: 0.5rem;
+  font-size: 14px;
+}
+
+.cv--header--item svg {
+  margin-right: 0.5rem;
+}
+
+.cv--contact--item {
+  display: flex;
+  align-items: center;
+  margin: 0.5rem 0;
+}
+
+.cv--contact--item svg {
+  margin-right: 0.5rem;
+}
+
+.cv--contact--item span {
+  display: block;
+}
+
+.cv--experiences {
+  padding: 1rem;
+}
+
+.cv--experiences .title {
+  color: var(--green);
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.experience {
+  border-bottom: 1px solid var(--dark-blue);
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+}
+
+.experience .role {
+  color: var(--green);
+  font-weight: bold;
+}
+
+.experience .company {
+  font-weight: bold;
+}
+
+.tag {
+  background-color: var(--green);
+  color: white;
+  padding: 0.2rem 0.4rem;
+  border-radius: 8px;
+  margin-right: 0.3rem;
+  font-size: 14px;
+}
+
+.project {
+  margin: 1rem 0;
+  margin-left: 2rem;
+}
+
+.project .name {
+  font-weight: bold;
+}
+
+.project .kind {
+  color: #555b64;
+}
+
+.project .url {
+  color: #2964bc;
+}
+
+.project .stack {
+  font-weight: bold;
+}

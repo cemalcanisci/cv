@@ -1,0 +1,161 @@
+{
+  "profile": {
+    "fullName": "Murat Ersin",
+    "title": "Senior Front-End Developer",
+    "email": "muratersin@yandex.com",
+    "phone": "542 784 72 67",
+    "address": "Akıncı küme evleri Tai lojmanları no B5 daire 4 Kahramankazan/Ankara",
+    "bio": "Senior Frond-End Developer. Extensive experience with JavaScript, NodeJS, VueJS, HTML/HTML5, CSS/CSS3. Keen advocate of clean, usable, user-friendly, maintainable and testable code. Graduated from Atılım University.",
+    "brithDate": "19/07/1990",
+    "education": "Atılım University Associate's degree, Computer Programming"
+  },
+  "links": [
+    {
+      "title": "Linkedin",
+      "icon": "linkedin",
+      "url": "linkedin.com/in/murat-ersin-701819119"
+    },
+    {
+      "title": "GitHub",
+      "icon": "github",
+      "url": "github.com/muratersin"
+    },
+    {
+      "title": "Stack Overflor",
+      "icon": "stackoverflow",
+      "url": "stackoverflow.com/users/5273098/murat-ersin",
+      "hidden": true
+    },
+    {
+      "title": "Medium",
+      "icon": "medium",
+      "url": "medium.com/@mmuratersin",
+      "hidden": true
+    }
+  ],
+  "experinces": [
+    {
+      "company": "Bites",
+      "role": "Front-End Team Lead",
+      "start": "Present",
+      "end": "11/2022",
+      "url": "bites.com.tr",
+      "description": "Defence & Aerospace Technologies"
+    },
+    {
+      "company": "Bites",
+      "role": "Front-End Developer",
+      "start": "05/2019",
+      "end": "06/2020",
+      "url": "bites.com.tr",
+      "description": "Defence & Aerospace Technologies",
+      "projects": [
+        {
+          "name": "BizBize",
+          "kind": "Video Conference",
+          "url": "bizbize.live",
+          "techStack": [
+            "Vue2",
+            "Vuex",
+            "NuxtJS",
+            "SCSS",
+            "tailwind",
+            "Jira",
+            "AWS CodeCommint"
+          ]
+        },
+        {
+          "name": "BizBize - E-Genel Kurul",
+          "kind": "Online general assembly ",
+          "url": "egenelkurul.bizbize.live",
+          "techStack": [
+            "Vue2",
+            "Vue3",
+            "Vuex",
+            "NextJs",
+            "React",
+            "TypeScript",
+            "SCSS",
+            "Jira",
+            "AWS CodeCommint"
+          ]
+        },
+        {
+          "name": "XperDrive",
+          "kind": "File Storage",
+          "url": "xperdrive.com",
+          "techStack": ["Vue2", "Vuex", "SCSS", "Jira", "AWS CodeCommint"]
+        },
+        {
+          "name": "XperStream",
+          "kind": "Live video streaming platform",
+          "url": "xperstream.com",
+          "techStack": ["Vue2", "Vuex", "SCSS", "Jira", "AWS CodeCommint"]
+        },
+        {
+          "name": "XperShare",
+          "kind": "File sharing platform",
+          "url": "xpershare.com",
+          "techStack": ["vue3", "Vuex", "SCSS", "Jira", "AWS CodeCommint"]
+        }
+      ]
+    },
+    {
+      "company": "App Samurai",
+      "role": "Front-End Developer",
+      "start": "05/2019",
+      "end": "06/2020",
+      "url": "https://interceptd.com/",
+      "description": "One-Stop-Shop mobile user acquisition platform",
+      "projects": [
+        {
+          "name": "Interceptd",
+          "kind": "Cost Accounting",
+          "url": "interceptd.com",
+          "techStack": ["ReactJS", "Webpack", "Jira", "GitHub"]
+        }
+      ]
+    },
+    {
+      "company": "Mebitech",
+      "role": "Front-End Developer",
+      "start": "08/2018",
+      "end": "05/2019",
+      "url": "mebitech.com.tr",
+      "description": "Mebitech is an enterprise solution provider for government agencies",
+      "projects": [
+        {
+          "name": "PTT Maliyet Muahasebesi",
+          "kind": "Cost Accounting",
+          "url": "Private project",
+          "techStack": ["ReactJS", "Webpack", "Bootstrap", "Jira", "Bitbucket"]
+        }
+      ]
+    },
+    {
+      "company": "Allesgo",
+      "role": "Jr. Full-Stack Developer",
+      "start": "06/2016",
+      "end": "08/2018",
+      "url": "allesgo.com",
+      "description": "Allesgo is an e-commerce platform which contains B2B, B2C and C2C modules.",
+      "projects": [
+        {
+          "name": "İpsizcambaz",
+          "kind": "E-Commerce",
+          "url": "allesgo.com",
+          "techStack": [
+            "NodeJS",
+            "ExpressJS",
+            "MongoDB",
+            "MSSQL",
+            "Redis",
+            "AngularJs",
+            "Nunjucks",
+            "Github"
+          ]
+        }
+      ]
+    }
+  ]
+}
