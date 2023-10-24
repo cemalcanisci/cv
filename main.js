@@ -7,7 +7,7 @@ function init() {
   setProfileData();
   setLinksData();
   setExperiences();
-  setSkills();
+  // setSkills();
   feather.replace();
 }
 init();
