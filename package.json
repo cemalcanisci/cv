@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && node htmlto.js",
+    "build": "vite build",
     "preview": "vite preview"
   },
   "devDependencies": {
@@ -16,6 +16,8 @@
   },
   "dependencies": {
     "feather-icons": "^4.29.1",
-    "html-to-pdf-js": "^0.9.3"
+    "html-to-pdf-js": "^0.9.3",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^2.5.1"
   }
 }

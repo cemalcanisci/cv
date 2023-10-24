@@ -9,16 +9,29 @@
     "brithDate": "19/07/1990",
     "education": "Atılım University Associate's degree, Computer Programming"
   },
+  "skills": [
+    "javascript",
+    "typescript",
+    "nodejs",
+    "vue",
+    "react",
+    "html",
+    "css",
+    "sass",
+    "git",
+    "vite",
+    "webpack"
+  ],
   "links": [
     {
       "title": "Linkedin",
       "icon": "linkedin",
-      "url": "linkedin.com/in/murat-ersin-701819119"
+      "url": "/in/murat-ersin-701819119"
     },
     {
       "title": "GitHub",
       "icon": "github",
-      "url": "github.com/muratersin"
+      "url": "/muratersin"
     },
     {
       "title": "Stack Overflor",
@@ -37,8 +50,8 @@
     {
       "company": "Bites",
       "role": "Front-End Team Lead",
-      "start": "Present",
-      "end": "11/2022",
+      "start": "11/2022",
+      "end": "Present",
       "url": "bites.com.tr",
       "description": "Defence & Aerospace Technologies"
     },

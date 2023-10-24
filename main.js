@@ -7,6 +7,7 @@ function init() {
   setProfileData();
   setLinksData();
   setExperiences();
+  setSkills();
   feather.replace();
 }
 init();
@@ -46,6 +47,17 @@ function setLinksData() {
   document.getElementById("links").appendChild(ul);
 }
 
+function setSkills() {
+  const { skills } = data;
+  const div = document.getElementById("skills");
+  for (const item of skills) {
+    console.log(item);
+    const skillEl = document.createElement("span");
+    skillEl.textContent = item;
+    div.appendChild(skillEl);
+  }
+}
+
 function setExperiences() {
   const { experinces } = data;
   const div = document.createElement("div");
@@ -57,7 +69,7 @@ function setExperiences() {
 
     exEl.innerHTML = `
         <span class="company">${ex.company}</span>  -
-        <span class="role tex">${ex.role}</span>  
+        <span class="role tex">${ex.role}</span>  (${ex.start} - ${ex.end})
         <p class="desc">${ex.description}</p>  
     `;
 
@@ -94,7 +106,6 @@ function setDataToElement(id, value) {
 }
 
 function convertToPdf() {
-  console.log(html2pdf);
-  html2pdf(document.getElementById("cv"));
+  html2pdf(document.getElementById("cv"), {});
 }
 convertToPdf();

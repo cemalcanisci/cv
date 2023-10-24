@@ -12,7 +12,6 @@
 .cv {
   width: 800px;
   height: 100%;
-  margin: 0 auto;
 }
 
 .cv--header {
@@ -87,11 +86,27 @@ svg {
   display: block;
 }
 
-.cv--experiences {
-  padding: 1rem;
+.cv--skills {
+  padding: 0 10px;
+}
+.cv--skills span {
+  background-color: var(--dark-blue);
+  color: white;
+  border-radius: 8px;
+  margin-right: 10px;
+  padding: 5px 10px;
 }
 
-.cv--experiences .title {
+.cv--experiences {
+  padding: 10px;
+}
+
+.cv--skills .title {
+  margin: 10px 0px;
+}
+
+.cv--experiences .title,
+.cv--skills .title {
   color: var(--green);
   font-weight: bold;
   font-size: 22px;
@@ -113,9 +128,8 @@ svg {
 }
 
 .tag {
-  background-color: var(--green);
-  color: white;
-  padding: 0.2rem 0.4rem;
+  color: var(--green);
+
   border-radius: 8px;
   margin-right: 0.3rem;
   font-size: 14px;
