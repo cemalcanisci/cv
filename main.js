@@ -70,7 +70,7 @@ function setExperiences() {
     exEl.innerHTML = `
         <span class="company">${ex.company}</span>  -
         <span class="role tex">${ex.role}</span>  (${ex.start} - ${ex.end})
-        <p class="desc">${ex.description}</p>  
+        <p class="desc">${ex.description}</p>
     `;
 
     if (projects) {
@@ -86,9 +86,9 @@ function setExperiences() {
             <div class="kind">${project.kind}</div>
             <div class="url">${project.url}</div>
             <div class="stack">${project.techStack.map(
-              (t) => `<span class="tag">${t}</span>`
-            )}</div>
-          </div> 
+          (t) => `<span class="tag">${t}</span>`
+        )}</div>
+          </div>
         `;
         ul.appendChild(li);
       }
@@ -108,4 +108,4 @@ function setDataToElement(id, value) {
 function convertToPdf() {
   html2pdf(document.getElementById("cv"), {});
 }
-convertToPdf();
+// convertToPdf();

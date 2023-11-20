@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 :root {
-  --green: #10959b;
-  --blue: #2e3c51;
-  --dark-blue: #202a33;
+  --secondary: #1b7c5a;
+  --primary: #163415;
+  --dark-primary: #112a10;
   --section-padding: 2rem;
 }
 
@@ -18,7 +18,7 @@
   padding: var(--section-padding);
   display: flex;
   justify-content: space-between;
-  background-color: var(--blue);
+  background-color: var(--primary);
   color: white;
 }
 
@@ -31,7 +31,7 @@
 }
 
 .cv--header--info #title {
-  color: var(--green);
+  color: var(--secondary);
   font-weight: bold;
   margin-bottom: 1rem;
   font-size: 1.3rem;
@@ -39,9 +39,9 @@
 
 .cv--header--profile-image {
   margin-left: 100px;
-  border: 3px solid var(--green);
+  border: 3px solid var(--secondary);
   border-radius: 50%;
-  background-image: url("https://whale-app-fzv2e.ondigitalocean.app/me.jpg");
+  background-image: url("/public/me.jpg");
   min-width: 180px;
   min-height: 180px;
   max-width: 180px;
@@ -50,7 +50,7 @@
 }
 
 .cv--contact {
-  background-color: var(--dark-blue);
+  background-color: var(--dark-primary);
   color: white;
   padding: 0.5rem 1rem;
   display: flex;
@@ -90,7 +90,7 @@ svg {
   padding: 0 10px;
 }
 .cv--skills span {
-  background-color: var(--dark-blue);
+  background-color: var(--dark-primary);
   color: white;
   border-radius: 8px;
   margin-right: 10px;
@@ -107,19 +107,19 @@ svg {
 
 .cv--experiences .title,
 .cv--skills .title {
-  color: var(--green);
+  color: var(--secondary);
   font-weight: bold;
   font-size: 22px;
 }
 
 .experience {
-  border-bottom: 1px solid var(--dark-blue);
+  border-bottom: 1px solid var(--dark-primary);
   margin-bottom: 1rem;
   padding-bottom: 1rem;
 }
 
 .experience .role {
-  color: var(--green);
+  color: var(--secondary);
   font-weight: bold;
 }
 
@@ -128,7 +128,7 @@ svg {
 }
 
 .tag {
-  color: var(--green);
+  color: var(--secondary);
 
   border-radius: 8px;
   margin-right: 0.3rem;
