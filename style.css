@@ -113,9 +113,10 @@ svg {
 }
 
 .experience {
-  border-bottom: 1px solid var(--dark-primary);
+  /* border: 3px solid #112a1017; */
+  border: 3px solid #1b7c5a21;
   margin-bottom: 1rem;
-  padding-bottom: 1rem;
+  padding: 1rem;
 }
 
 .experience .role {
